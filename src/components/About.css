@@ -1,0 +1,49 @@
+.parallax {
+    height: 100vh; /* A seção terá a altura total da janela */
+    overflow-y: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: #000;
+    max-width: 100vw; /* O card ocupará até 90% da largura da viewport */
+    overflow-x: auto; /* Adiciona barra de rolagem horizontal se necessário */
+}
+
+@media (max-width: 768px) {
+    .parallax {
+        background-attachment: scroll;
+        height: auto;
+        padding: 60px 0;
+    }
+}
+
+.translucent-card {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo branco com 70% de opacidade */
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff; /* Texto preto para melhor contraste */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    width: 100%; /* O card ocupará 90% da largura do container */
+    max-width: 1200px; /* Largura máxima para evitar que fique muito largo */
+}
+
+.parallax {
+    background-image: url("../images/mosaico.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    position: relative;
+}
+
+.parallax .container {
+    max-width: 1200; /* Limita a largura do conteúdo */
+}

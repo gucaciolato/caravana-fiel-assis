@@ -1,0 +1,17 @@
+body {
+  background-color: #fff;
+  margin-top: 56px;
+  /* Altura do navbar */
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}

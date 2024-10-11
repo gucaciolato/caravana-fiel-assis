@@ -1,0 +1,27 @@
+.navbar {
+    text-align: center;
+}
+
+.navbar-brand {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        padding: 0.5rem 0;
+    }
+}
