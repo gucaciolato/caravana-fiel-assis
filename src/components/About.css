@@ -38,7 +38,7 @@
     border: none;
     border-radius: 15px;
     padding: 20px;
-    color: #fff;
+    color: #fff !important;
     /* Texto branco */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
     width: 100%;
