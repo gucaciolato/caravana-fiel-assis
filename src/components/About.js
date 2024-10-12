@@ -14,7 +14,7 @@ function About() {
             <div className="container">
                 <Card className="text-center translucent-card">
                     <Card.Body>
-                        <Card.Title><h3><strong>Quem somos/</strong></h3></Card.Title>
+                        <Card.Title><h3><strong>Quem somos?</strong></h3></Card.Title>
                         <Card.Text>
                             <p>Somos um grupo de torcedores apaixonados pelo Sport Club Corinthians Paulista, dedicados a promover o espírito corinthiano em Assis e proporcionar momentos de união e alegria para toda a comunidade.</p>
                             <h3><strong>Transmissões dos Jogos do Corinthians</strong></h3>
